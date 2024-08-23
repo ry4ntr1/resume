@@ -10,6 +10,9 @@
 \LoadClass{Expressive}
 
 %% ----- Required Packages -----
+\RequirePackage{ragged2e}
+\RequirePackage{times}  % Use Times New Roman font
+
 %% Define page layout
 \RequirePackage[margin=0.5in]{geometry}
     \pagestyle{empty}

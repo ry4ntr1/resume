@@ -11,12 +11,13 @@
 
 %% ----- Required Packages -----
 \RequirePackage{ragged2e}
+\RequirePackage{times}
 
 %% Define page layout
 \RequirePackage[margin=1in]{geometry}
     \pagestyle{empty}
     \setlength{\parindent}{0pt}
-    \setlength{\parskip}{\baselineskip}
+    \setlength{\parskip}{0pt}  % Set paragraph spacing to 0 for single spacing
 
 %% ----- Custom Commands -----
 % Header Block
@@ -90,7 +91,7 @@
 }
 
 %% ----- Four Required Configurations -----
-\renewcommand{\normalsize}{\fontsize{12pt}{18pt}\selectfont}
+\renewcommand{\normalsize}{\fontsize{12pt}{14pt}\selectfont}  % 12pt font with 14pt leading for single spacing
 \setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9in}
 \pagenumbering{arabic}

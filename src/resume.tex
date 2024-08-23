@@ -5,59 +5,77 @@
 
 % ----- Name + Contact Information -----
 \resumeheader[
-    firstname=John,
-    middleinitial=N,
-    lastname=Doe,
-    email=john.doe@example.com,
-    phone=123-456-7890,
-    linkedin=johndoe,
-    github=johndoe,
-    city=Town,
-    state=State,
-    qrcode=./images/qr.png,
-    fixobjectivespacing=true
+firstname=Ryan,
+lastname=Tri,
+email=ry4ntr1@gmail.com,
+phone=832-491-4811,
+linkedin=ry4ntr1,
+github=ry4ntr1,
+city=Sugar Land,
+state=Texas,
+qrcode=./images/qr.png,
+fixobjectivespacing=true
 ]
 
-\objective{A software engineering graduate with 2 years of work
-    experience at various internships \\ seeking opportunities to develop
-    web/mobile applications for Company XYZ.}
+\objective{Undergraduate Computer Science student at Texas A\&M University with an interest in Deep Learning applications for sports analysis systems, wearable health technology, neurobiology, and multimodal environments.}
 
 % ----- Education -----
 \section{Education}
 
-\experience{Bachelor of Science}{Software Engineering}{Aug 2018}{May 2022}{
-    \noindent Fabulous Honors College \hfill GPA: 4.00 \newline
-    Super Duper University, Town, State \newline
+\education{Computer Science}{Bachelor of Science}{May 2025}{
+\noindent Texas A\&M University \newline
+\noindent GPA: 3.904/4.0 \newline
+College Station, Texas \newline \newline
+\noindent \textbf{Relevant Coursework:} Data Structures and Algorithms, Discrete Structures for Computing, Linear Algebra, Statistics, Computer Organization, Design and Analysis of Algorithms, Foundations of Software Engineering, Principles of Data Science, Machine Learning, Artificial Intelligence
 }
 
 % ----- Work Experience -----
-\section{Work Experience}
+\section{Experience}
 
-\experience{Summer Intern}{Radiant Software Systems}{Aug 2021}{May 2021}{
-    \achievement{
-
-        Developed a mobile app in \tech{React Native} that was
-        downloaded 100k times on Google Play.
-
-    }
-    \achievement{
-
-        Collaborated in an \tech{Agile/Scrum} team of 8 engineers to
-        deliver new features every 2 weeks.
-
-    }
+\experience{Software Engineering Intern}{Albedo}{Jun 2021}{Aug 2021}{
+    \achievement{Preprocessed 13K aerial images from the COWC dataset using \textbf{scikit-learn} and \textbf{OpenCV}.}
+    \achievement{Converted annotations to \textbf{YOLOv4} format, addressed data quality issues, and created balanced train/test splits.}
+    \achievement{Implemented and fine-tuned the \textbf{YOLOv4} model on \textbf{Google Colab} using \textbf{Darknet}, achieving a 95\% mAP.}
+    \achievement{Optimized hyperparameters to improve detection accuracy and reduce false positives by 20\%.}
+    \achievement{Presented findings to upper management, influencing strategic decisions for future AI model enhancements.}
 }
+
 
 % ----- Technical Projects -----
-\section{Technical Projects}
+\section{Projects}
 
-\experience{Expressive Resume}{Personal Project}{Nov 2021}{Dec 2021}{
-    \achievement{
-
-        Created a \tech{\LaTeX} class that makes it easy for anyone to
-        quickly create a beautiful resume and cover letter.
-
-    }
+\experience{Mess Waffles POS System}{Texas A\&M University}{Sep 2023}{Dec 2023}{
+\achievement{Developed a POS system for Mess Waffles, improving efficiency and data analytics.}
+\achievement{Designed user interfaces using \textbf{TypeScript}, \textbf{Vite}, and \textbf{Material-UI}, enhancing user experience.}
+\achievement{Implemented secure \textbf{OAuth2.0} authentication and integrated \textbf{Google Maps}, \textbf{Weather}, and \textbf{Translate} APIs with \textbf{Express.js} and \textbf{PostgreSQL} for seamless interactions.}
+\achievement{Developed real-time order processing and inventory management, reducing restock losses by 15\% through timely notifications and data-driven analytics.}
+\achievement{Deployed on \textbf{AWS EC2} with CI/CD pipelines using \textbf{GitHub Actions}, ensuring efficient updates.}
 }
+
+\experience{Tennis Ball Tracking and Court Line Detection System}{Personal Project}{Jan 2024}{Jul 2024}{
+\overview{\noindent Developed a system for tracking tennis balls and detecting court lines using machine learning and computer vision.}
+\achievement{Implemented ball tracking with \textbf{YOLO} models using \textbf{PyTorch} and \textbf{Ultralytics}, achieving 90\% detection accuracy.}
+\achievement{Trained custom models and developed court line detection with \textbf{OpenCV}, improving detection performance by 25\% and accuracy by 10\%.}
+\achievement{Processed videos with \textbf{pandas} and \textbf{numpy}, conducting model training with data augmentation and hyperparameter tuning, optimizing performance and enabling real-time inference with 20\% reduced latency.}
+\achievement{Created utility scripts for bounding box operations and video processing, enhancing system functionality and maintainability.}
+}
+
+% ----- Skills -----
+\section{Skills}
+
+\skill{\noindent \textbf{Programming Languages:} Python, C++, Java, TypeScript, SQL, JavaScript, Swift} \newline
+\skill{\noindent \textbf{Machine Learning Frameworks:} TensorFlow, PyTorch, scikit-learn, Keras, YOLO} \newline
+\skill{\noindent \textbf{Data Processing and Analysis:} Pandas, Numpy, Matplotlib, OpenCV} \newline
+\skill{\noindent \textbf{Cloud Platforms:} AWS (Amazon Web Services), Google Cloud Platform (GCP)} \newline
+\skill{\noindent \textbf{Tools, Technologies, and Methodologies:}
+    Docker, Git, React, Node.js, Flask, PostgreSQL, Agile, Vite} \newline
+
+% ----- Certifications -----
+\section{Certifications}
+\achievement{TensorFlow Developer, DeepLearning.AI, May 2023}
+\achievement{Convolutional Neural Networks in TensorFlow, DeepLearning.AI, May 2023}
+\achievement{Natural Language Processing in TensorFlow, DeepLearning.AI, May 2023}
+\achievement{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, DeepLearning.AI, Jun 2021}
+\achievement{Structuring Machine Learning Projects, DeepLearning.AI, Jun 2021}
 
 \end{document}

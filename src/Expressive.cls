@@ -112,13 +112,19 @@
 % Experience/Achievements
 \newcommand{\tech}[1]{\textbf{#1}}
 \newcommand{\role}[2]{\textbf{#2 | \emph{#1}}}
-\newcommand{\subrole}[4]{\emph{#1 (#2 - #3)} #4}
+
 \newcommand{\tenure}[2]{\textsc{#1} - \textsc{#2}}
 \newcommand{\achievement}[1]{%
     \begin{itemize}
         \small{\item #1}
     \end{itemize}
 }
+\newcommand{\education}[4]{%
+    \noindent\role{#1}{#2}\hfill\textbf{Expected Graduation: #3}\par
+    #4
+    \vspace{7pt}
+}
+
 \newcommand{\experience}[5]{%
     \noindent\role{#1}{#2}\hfill\tenure{#3}{#4}\par
     #5
